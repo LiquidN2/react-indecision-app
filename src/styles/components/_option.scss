@@ -1,0 +1,23 @@
+.option {
+    display: flex; // will remove number of li element
+    justify-content: space-between;
+    padding: $l-size $m-size;
+    border-bottom: 1px solid lighten($light-blue, 10%);
+
+    &__text {
+        color: white;
+        font-weight: 500;
+        font-size: 2rem;
+        margin: 0 2rem 0 0;
+        word-break: break-all;
+    }
+}
+
+// ol.widget-options {
+//     counter-reset: section;                     
+// }
+  
+// li.option span::before  {
+//     counter-increment: section;                 
+//     content: counter(section);
+// }
